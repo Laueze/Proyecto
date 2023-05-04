@@ -48,6 +48,7 @@ background-color: var(--blanco);
     align-items: center;
     padding: 12px;
     padding-left: 40px;
+    margin-bottom: 32px;
     
 } 
 
@@ -70,4 +71,44 @@ background-color: var(--blanco);
     
     text-decoration: underline;
     
+}
+
+.imagen {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.productos {
+    background-color: aquamarine;
+    margin-bottom: 32px;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 20px;
+}
+.izquierda {
+    background-color: beige;
+}
+.derecha {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+.producto {
+    background-color: chocolate;
+}
+.producto-title {
+    margin-bottom: 12px;
+    font-size: 20px;
+
+}
+.producto-contenedor {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 20px;
+}
+.producto-contenedor p {
+    margin-top: 8px;
+    font-size: 12px;
 }
