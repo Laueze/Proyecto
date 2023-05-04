@@ -1,5 +1,6 @@
 :root{
     --naranja: #f90;
+    --amarillo: rgb(182, 182, 9);
     --gris-oscuro: #27262b;
     --gris-claro: #ccc;
     --blanco: #fff;
@@ -10,6 +11,11 @@
 
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 body {
     background-color: var(--gris-oscuro);
@@ -33,4 +39,35 @@ align-items: center;
 }
 .contenido {
 background-color: var(--blanco);
+}
+
+.nav-lista {
+    background-color: var(--naranja);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    padding-left: 40px;
+    
+} 
+
+.nav-form {
+    flex-grow: 1;
+    text-align: right;
+
+}
+.nav-link {
+    display: block;
+    color: var(--blanco);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-right: 1px solid var(--amarillo) ;
+    
+}
+
+.nav-link:hover {
+    
+    text-decoration: underline;
+    
 }
