@@ -107,8 +107,56 @@ background-color: var(--blanco);
     display: grid;
     grid-template-columns: 150px 1fr;
     gap: 20px;
+    
 }
 .producto-contenedor p {
     margin-top: 8px;
     font-size: 12px;
+
+}
+
+.newsletter {
+
+  
+    background-image: linear-gradient(var(--blanco), var(--gris-claro));
+    margin-bottom: 250px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid var(--gris-oscuro);
+    border-radius: 4px;
+    padding: 12px 32px;
+
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-texto {
+    
+    
+    margin-left: 32px;
+
+}
+
+.newsletter-parrafo2 {
+    margin-left: 32px;
+}
+
+.newsletter-form {
+
+    
+    flex-grow: 1;
+    text-align: right;
+
+}
+
+.newsletter-form input[type="submit"] {
+    
+    background-color: none;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+
+
+
 }
